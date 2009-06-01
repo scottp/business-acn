@@ -2,7 +2,7 @@
 
 use strict;
 use Test;
-use Blib;
+use blib;
 
 BEGIN { plan test => 2 }
 
