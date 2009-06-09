@@ -1,7 +1,5 @@
 use ExtUtils::MakeMaker;
-# See lib/ExtUtils/MakeMaker.pm for details of how to influence
-# the contents of the Makefile that is written.
 WriteMakefile(
-    'NAME'      => 'Business::AU::ACN',
-    'VERSION_FROM' => 'lib/Business/AU/ACN.pm', # finds $VERSION
+	'NAME'		=> 'Business::AU::ACN',
+	'VERSION_FROM'	=> 'lib/Business/AU/ACN.pm',
 );
