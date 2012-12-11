@@ -1,7 +1,7 @@
 package Business::AU::ACN;
 use base qw/Exporter/;
 use vars qw/$VERSION/;
-$VERSION = "0.30";
+$VERSION = "0.31";
 
 =head1 NAME
 
@@ -28,7 +28,8 @@ http://www.asic.gov.au/asic/ASIC_INFOCO.NSF/byid/CA256AE900038AEACA256AFB008053E
 
 =head1 AUTHOR
 
-Scott Penrose <scottp@dd.com.au>
+Scott Penrose <scottp@dd.com.au>, 
+Tom Harrison <tomh@apnic.net>
 
 =head1 SEE ALSO
 
