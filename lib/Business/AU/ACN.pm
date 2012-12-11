@@ -52,6 +52,9 @@ sub validate {
 		$acc += $acn[$i] * (8 - $i);
 	}
 	$acc = 10 - ($acc % 10);
+        if ($acc == 10) {
+            $acc = 0;
+        }
 
 	# check it is valid
 	if ($acn[8] == $acc) {
